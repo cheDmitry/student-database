@@ -1,0 +1,139 @@
+@media (max-width: 1302px) {
+  .header__form {
+    width: calc(581 / 1024 * 100%);
+  }
+  
+  .main__container {
+    padding: 0 20px;
+  }
+
+  .table__spiner {
+    width: 36px;
+    height: 36px;
+    top: calc(50% - 18px);
+    left: calc(50% - 18px);
+  }
+
+  /* .table__body__cell-name {
+    min-width: 241px;
+  }
+
+  .table__body__cell-contacts {
+    min-width: 125px;
+  } */
+
+  .table__head-id, .table__body__cell-id {
+    flex-basis: 15.9%;
+  }
+  
+  .table__head-name, .table__body__cell-name{
+    flex-basis: 24.49%;
+  }
+  
+  .table__head-create, .table__body__cell-create {
+    flex-basis: 15.95%;
+  }
+  
+  .table__head-change, .table__body__cell-change {
+    flex-basis: 15.85%;
+  }
+  
+  .table__head-contacts, .table__body__cell-contacts {
+    flex-basis: 15.04%;
+  }
+  
+  .table__head-actions, .table__body__cell-actions {
+    flex-basis: 8.7%;
+  }
+
+  .table__body__cell-actions .table__button-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .main__container {
+    overflow-x: auto;
+  }
+
+  .table {
+    min-width: 728px;
+    overflow-x: auto;
+  }
+
+  tr .table__head-create {
+    padding-right: 0;
+  }
+
+  tr .table__head-change {
+    padding-right: 0;
+  }
+
+  table .table__head-id {
+    padding-left: 5px;
+  }
+
+  .table__body__cell-id {
+    padding-right: 5px;
+    padding-left: 5px !important;
+  }
+
+  .table__head-id, .table__body__cell-id {
+    flex-basis: 16.9%;
+  }
+  
+  .table__head-name, .table__body__cell-name{
+    flex-basis: 26.59%;
+  }
+  
+  .table__head-create, .table__body__cell-create {
+    flex-basis: 13.96%;
+  }
+  
+  .table__head-change, .table__body__cell-change {
+    flex-basis: 13.96%;
+  }
+  
+  .table__head-contacts, .table__body__cell-contacts {
+    flex-basis: 16.22%;
+  }
+  
+  .table__head-actions, .table__body__cell-actions {
+    flex-basis: 16.72%;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-container {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .header__logo {
+    margin: 0 auto;
+  }
+  .header__logo img {
+    height: 24px;
+  }
+  
+  .header__form {
+    display: none;
+  }
+
+  .modal__content {
+    max-width: 300px;
+    left: calc(50% - 150px);
+  }
+
+  .main__button {
+    position: fixed;
+    left: calc(50% - 109px);
+  }
+
+  .modal__title{
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+  }
+}
